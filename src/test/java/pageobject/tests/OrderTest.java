@@ -1,10 +1,10 @@
-package pageObject.tests;
+package pageobject.tests;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import pageObject.pages.HomePage;
-import pageObject.pages.OrderPage;
+import pageobject.pages.HomePage;
+import pageobject.pages.OrderPage;
 
 import java.util.stream.Stream;
 

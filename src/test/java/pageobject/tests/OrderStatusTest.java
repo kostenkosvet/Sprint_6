@@ -1,7 +1,7 @@
-package pageObject.tests;
+package pageobject.tests;
 
 import org.junit.jupiter.api.Test;
-import pageObject.pages.OrderStatusPage;
+import pageobject.pages.OrderStatusPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

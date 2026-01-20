@@ -1,22 +1,24 @@
-package pageObject.tests;
+package pageobject.tests;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
-import pageObject.pages.BasePage;
-import pageObject.utils.Browser;
-import pageObject.utils.BrowserConfig;
+import pageobject.pages.BasePage;
+import pageobject.utils.Browser;
+import pageobject.utils.BrowserConfig;
 
 public class BaseTest {
 
     private WebDriver driver;
+    private final String BASE_URL = "https://qa-scooter.praktikum-services.ru/";
 
     @BeforeEach
     void startUp() {
         driver = BrowserConfig.setBrowserName(Browser.CHROME);
 //        driver = BrowserConfig.setBrowserName(Browser.FIREFOX);
         // Открой страницу тестового стенда
-        driver.get("https://qa-scooter.praktikum-services.ru/");
+
+        driver.get(BASE_URL);
 
         BasePage basePage = new BasePage(driver);
         basePage.clickAcceptCookieButton();

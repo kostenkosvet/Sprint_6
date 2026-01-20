@@ -1,4 +1,4 @@
-package pageObject.utils;
+package pageobject.utils;
 
 public enum Browser {
     CHROME,

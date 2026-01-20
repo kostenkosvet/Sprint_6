@@ -1,8 +1,8 @@
-package pageObject.tests;
+package pageobject.tests;
 
 import org.junit.jupiter.api.Test;
-import pageObject.pages.BasePage;
-import pageObject.pages.HomePage;
+import pageobject.pages.BasePage;
+import pageobject.pages.HomePage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
